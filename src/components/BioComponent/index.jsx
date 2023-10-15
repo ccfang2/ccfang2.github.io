@@ -17,7 +17,7 @@ const Bio = () => {
             return (
               <div className="d-flex flex-row eduElementPadding" key={index}>
                 <div className="logoImagePadding">
-                  <img src={`${d.imageUrl}`} alt="" height="80px" width="80px" />
+                  <img src={`${d.imageUrl}`} alt="" height="80px" width="200px" />
                 </div>
                 <div className="d-flex flex-column">
                   <span>
@@ -26,14 +26,14 @@ const Bio = () => {
                   </span>
                   <span>{d.description}</span>
                   {d.department && (
-                    <span>Department: <a href="https://ece.iisc.ac.in" target="_blank" rel="noopener noreferrer">{d.department}</a></span>
+                    <span>Department: {parse(d.department)}</span>
                   )}
                   {d.supervisor && (
                     <span>Supervisor: {parse(d.supervisor)}</span>
                   )}
                   {d.thesisTitle && (
                     <span>
-                      <span>Thesis: {d.thesisTitle}</span>
+                      <span>Thesis: {parse(d.thesisTitle)}</span>
                       {/* <a href="#/publications/#thesis" target="_self" rel="noopener noreferrer" className="badgePadding"><span className="badge rounded-pill" style={{ backgroundColor: getBadgeColor("weblink") }}>thesis</span></a> */}
                     </span>
                   )}
@@ -56,7 +56,7 @@ const Bio = () => {
             return (
               <div className="d-flex flex-row eduElementPadding" key={index}>
                 <div className="logoImagePadding">
-                  <img src={`${d.imageUrl}`} alt="" height="80px" width="80px" />
+                  <img src={`${d.imageUrl}`} alt="" height="80px" width="200px" />
                 </div>
                 <div className="d-flex flex-column">
                   <span>
@@ -81,30 +81,6 @@ const Bio = () => {
               </div>
             );
           })}
-        </div>
-      </div>
-      <div className="row alignBaseline">
-        <div className="col-md-2">
-          <hr className="headingBar col-md-8" />
-        </div>
-        <div className="col-md-10">
-          <p className="headingFontSize">Awards and Honors</p>
-          <ul>
-            {data.awardsAndHonors.map((d, index) => {
-              return (
-                <div>
-                  <li key={index}>
-                    <span className="contentPadding">{parse(d.title)}</span> 
-                    {d.badgesData && d.badgesData.map((badge, index) => {
-                    return (
-                      <a key={index} href={badge.link} target="_blank" rel="noopener noreferrer" className="badgePadding"><span className="badge rounded-pill" style={{ backgroundColor: getBadgeColor(badge.badgeName) }}>{badge.badgeDisplayName}</span></a>
-                    )
-                  })} 
-                  </li> 
-                </div>
-               );
-            })}
-          </ul>
         </div>
       </div>
       <div className="row alignBaseline">

@@ -20,9 +20,8 @@ const Header = () => {
             <a className="nav-item nav-link" onClick={() => collapseNav()} href="/">Home</a>
             <a className="nav-item nav-link" onClick={() => collapseNav()} href="#/bio">Bio</a>
             <a className="nav-item nav-link" onClick={() => collapseNav()} href="#/publications">Publications</a>
-            <a className="nav-item nav-link" onClick={() => collapseNav()} href="#/talksAndSeminars">Talks/Seminars</a>
+            <a className="nav-item nav-link" onClick={() => collapseNav()} href="#/softwares">Softwares</a>
             <a className="nav-item nav-link" onClick={() => collapseNav()} href="#/teaching">Teaching</a>
-            <a className="nav-item nav-link" onClick={() => collapseNav()}href="#/blogs">Blogs</a>
           </div>
         </div>
       </nav>

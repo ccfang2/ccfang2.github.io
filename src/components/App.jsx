@@ -7,13 +7,10 @@ import {
 import Bio from "./BioComponent";
 import Header from "./common/Header";
 import Home from "./Home";
-import Publications from "./PublicationsComponent/index";
-import TalksAndSeminars from "./TalksAndSeminars";
-import TeachingComponent from "./TeachingComponent";
+import Publications from "./PublicationsAndResearches/index";
+import Softwares from "./Softwares";
 import { MathJaxContext } from "better-react-mathjax";
-import BlogsComponent from "./BlogsComponent";
-import RamanAndHisInnerClock from "./BlogsComponent/RamanAndHisInnerClockBlog";
-import PhdLifeBlog from "./BlogsComponent/PhdLifeBlog";
+import TeachingComponent from "./TeachingComponent";
 
 const App = () => {
   const config = {
@@ -54,12 +51,9 @@ const App = () => {
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/publications" element={<Publications />} />
-                <Route path="/talksAndSeminars" element={<TalksAndSeminars />} />
+                <Route path="/softwares" element={<Softwares />} />
                 <Route path="/teaching" element={<TeachingComponent />} />
                 <Route path="/bio" element={<Bio />} />
-                <Route path="/blogs" element={<BlogsComponent />} />
-                <Route path="/blogs/raman-and-his-inner-clock" element={<RamanAndHisInnerClock />} />
-                <Route path="/blogs/what-1756-days-of-phd-life-has-taught-me" element={<PhdLifeBlog />} />
               </Routes>
             </div>
           </div>

@@ -1,0 +1,69 @@
+{
+  "dimada": [
+    {
+      "date": "Aug 2023",
+      "title": "<em>Dimension Adaptive Estimation</em>",
+      "description": "<span>This package implements dimension adaptive estimation, which uses the sieve estimation and Lasso-type methods to obtain an estimator with the property of adapting its convergence rate to the unknown dimensionality of underlying true model. Specifically, if the underlying model is parametric, this estimator converges as fast as a parametric estimator. If the underlying model is non-parametric, its convergence rate might be slower but it still converges whilst the usual parametric estimator does not converge (in probability) to the true function. Hence, dimension adaptive estimator is weakly dominant in terms of approximation errors across different underlying models. The package 'dimada' allows users to easily perform such an estimator, together with other functions of plotting or summarizing the estimation results.</span>",
+      "badgesData": [
+        {
+          "badgeName": "R-package",
+          "link": "https://github.com/ccfang2/dimada",
+          "badgeDisplayName": "R-package"
+        },
+        {
+          "badgeName": "pdf",
+          "link": "https://github.com/ccfang2/Masters_Thesis",
+          "badgeDisplayName": "pdf"
+        }
+      ]
+    }
+  ],
+  "nndiagram": [
+    {
+      "date": "Apr 2022",
+      "title": "<em>Generator of 'LaTeX' Code for Drawing Neural Network Diagrams with 'TikZ'</em>",
+      "description": "<span>Generates 'LaTeX' code for drawing well-formatted neural network diagrams with 'TikZ'. Users have to define number of neurons on each layer, and optionally define neuron connections they would like to keep or omit, layers they consider to be oversized and neurons they would like to draw with lighter color. They can also specify the title of diagram, color, opacity of figure, labels of layers, input and output neurons. In addition, this package helps to produce 'LaTeX' code for drawing activation functions which are crucial in neural network analysis. To make the code work in a 'LaTeX' editor, users need to install and import some 'TeX' packages including 'TikZ' in the setting of 'TeX' file.</span>",
+      "badgesData": [
+        {
+          "badgeName": "CRAN",
+          "link": "https://cran.r-project.org/web/packages/nndiagram/index.html",
+          "badgeDisplayName": "CRAN"
+        },
+        {
+          "badgeName": "R-package",
+          "link": "https://github.com/ccfang2/nndiagram",
+          "badgeDisplayName": "R-package"
+        },
+        {
+          "badgeName": "manual",
+          "link": "../media/nndiagram.pdf",
+          "badgeDisplayName": "manual"
+        }
+      ]
+    }
+  ],
+  "HonestDiDSenAnlys": [
+    {
+      "date": "Nov 2020",
+      "title": "<em>HonestDiD Sensitivity Analysis</em>",
+      "description": "<span>This is a Shiny app that a Shiny app that facilitates the sensitivity analysis proposed in <a href=\"https://www.jonathandroth.com/assets/files/HonestParallelTrends_Main.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Rambachan and Roth (2022)</a> and is built on the R-package <a href=\"https://github.com/asheshrambachan/HonestDiD\" target=\"_blank\" rel=\"noopener noreferrer\">HonestDiD</a>.</span>",
+    "badgesData": [
+        {
+          "badgeName": "video",
+          "link": "https://www.youtube.com/watch?v=PyY-2ptiLTU",
+          "badgeDisplayName": "video"
+        },
+        {
+          "badgeName": "codes",
+          "link": "https://github.com/ccfang2/HonestDiDSenAnlys",
+          "badgeDisplayName": "codes"
+        },
+        {
+          "badgeName": "app",
+          "link": "https://ccfang2.shinyapps.io/HonestDiDSenAnlys/",
+          "badgeDisplayName": "app"
+        }
+      ]
+    }
+  ]
+}

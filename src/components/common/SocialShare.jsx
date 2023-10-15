@@ -14,7 +14,7 @@ import {
 } from "react-share";
 
 const SocialShare = (props) => {
-  const url = "https://pnkarthik.github.io";
+  const url = "https://ccfang2.github.io";
   // const ShareList = Passers({
   //   url,
   //   className: "network__share-button",

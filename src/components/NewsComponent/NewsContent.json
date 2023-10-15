@@ -1,117 +1,83 @@
 [
   {
-    "date": "31 Mar 2022",
-    "content": "Posted a paper on <em>Best Arm Identification in Restless Markov Multi-Armed Bandits</em>. Joint work with colleague <a href=\"https://scholar.google.com/citations?user=tqgIzfwAAAAJ&hl=en\" target=\"_blank\" rel=\"noopener noreferrer\">Kota Srinivas Reddy</a> and postdoc supervisor Prof. <a href=\"https://vyftan.github.io\" target=\"_blank\" rel=\"noopener noreferrer\">Vincent Y. F. Tan</a>.",
+    "date": "1 Oct 2023",
+    "content": "Started to do research at <a href=\"https://www.econ.uni-bonn.de/ifs/en\" target=\"_blank\" rel=\"noopener noreferrer\">Institute of Finance and Statistics</a> of <a href=\"https://www.uni-bonn.de\" target=\"_blank\" rel=\"noopener noreferrer\">Universität Bonn</a> as a Ph.D. candidate and an assistant."
+  },
+  {
+    "date": "25 Sept 2023",
+    "content": "Completed Master thesis <em>Dimension Adaptive Estimation</em> under the supervision of <a href=\"https://sites.google.com/view/joachimfreyberger/home\" target=\"_blank\" rel=\"noopener noreferrer\">Joachim Freyberger</a>, which is needed for me to proceed to dissertation phase of my Ph.D. program at Universität Bonn.",
     "badgesData": [
       {
-        "badgeName": "arxiv",
-        "link": "https://arxiv.org/abs/2203.15236",
-        "badgeDisplayName": "arxiv"
+        "badgeName": "thesis",
+        "link": "../media/Masters_Thesis.pdf",
+        "badgeDisplayName": "thesis"
+      },
+      {
+        "badgeName": "codes",
+        "link": "https://github.com/ccfang2/Masters_Thesis",
+        "badgeDisplayName": "codes"
+      },
+      {
+        "badgeName": "R-package",
+        "link": "https://github.com/ccfang2/dimada",
+        "badgeDisplayName": "R-package"
       }
     ]
   },
   {
-    "date": "20 Dec 2021",
-    "content": "Joined the <a href=\"https://ids.nus.edu.sg/\" target=\"_blank\" rel=\"noopener noreferrer\">Institute of Data Science</a> of the <a href=\"https://www.nus.edu.sg/\" target=\"_blank\" rel=\"noopener noreferrer\">National University of Singapore</a> as a Research Fellow."
+    "date": "5-6 May 2023",
+    "content": "Attended the <a href=\"https://sites.google.com/view/phd-conference/registration\" target=\"_blank\" rel=\"noopener noreferrer\">Bonn-Frankfurt-Mannheim PhD Conference</a> at <a href=\"https://www.goethe-university-frankfurt.de/en\" target=\"_blank\" rel=\"noopener noreferrer\">Goethe Universität</a>."
   },
   {
-    "date":"13 Dec 2021",
-    "content": "Won the <span class=\"boldColor\">first place</span> under the Electronics and Communication Engineering category in the 100 seconds competition organised by INAE Kanpur Chapter.",
+    "date":"18 Apr 2023",
+    "content": "Published an R package <a href=\"https://cran.r-project.org/web/packages/nndiagram/index.html\" target=\"_blank\" rel=\"noopener noreferrer\">nndiagram (1.0.0)</a>, which generates 'LaTeX' code for drawing well-formatted neural network diagrams with 'TikZ'.",
     "badgesData": [
       {
-        "badgeName": "certificate",
-        "link": "../media/2021/12/INAE-100-seconds.pdf",
-        "badgeDisplayName": "certificate"
+        "badgeName": "codes",
+        "link": "https://github.com/ccfang2/nndiagram",
+        "badgeDisplayName": "codes"
       },
       {
-        "badgeName": "video",
-        "link": "https://youtu.be/f9IxTny5FXU",
-        "badgeDisplayName": "100 seconds video"
+        "badgeName": "CRAN",
+        "link": "https://cran.r-project.org/web/packages/nndiagram/index.html",
+        "badgeDisplayName": "CRAN"
       }
     ]
   },
   {
-    "date":"08 Nov 2021",
-    "content": "Successfully defended my Ph.D. thesis titled <em>Sequential Controlled Sensing to Detect an Anomalous Process</em>.",
+    "date":"18 Nov 2022",
+    "content": "Published a Shiny app <a href=\"https://github.com/ccfang2/HonestDiDSenAnlys\" target=\"_blank\" rel=\"noopener noreferrer\">HonestDiDSenAnlys</a>, which facilitates the sensitivity analysis proposed in <a href=\"https://www.jonathandroth.com/assets/files/HonestParallelTrends_Main.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Rambachan and Roth (2022)</a> and is built on the R-package <a href=\"https://github.com/asheshrambachan/HonestDiD\" target=\"_blank\" rel=\"noopener noreferrer\">HonestDiD</a>.",
     "badgesData": [
       {
-        "badgeName": "slides",
-        "link": "../media/2021/11/thesis-defence.pdf",
-        "badgeDisplayName": "slides"
-      },
-      {
         "badgeName": "video",
-        "link": "https://youtu.be/64BscxU7nhg",
+        "link": "https://www.youtube.com/watch?v=PyY-2ptiLTU",
         "badgeDisplayName": "video"
       },
       {
-        "badgeName": "thesis",
-        "link": "../media/2021/11/main.pdf",
-        "badgeDisplayName": "thesis"
-      }
-    ]
-  },
-  {
-    "date": "04 Aug 2021",
-    "content": "Accepted to the Institute of Data Science, National University of Singapore, as a Research Fellow."
-  },
-  {
-    "date":"23 Jun 2021",
-    "content": "Presented my Ph.D. colloquium talk via Microsoft Teams.",
-    "badgesData": [
-      {
-        "badgeName": "slides",
-        "link": "../media/2021/06/thesis-colloquium.pdf",
-        "badgeDisplayName": "slides"
+        "badgeName": "codes",
+        "link": "https://github.com/ccfang2/HonestDiDSenAnlys",
+        "badgeDisplayName": "codes"
       },
       {
-        "badgeName": "video",
-        "link": "https://youtu.be/K4mDnbY03a4",
-        "badgeDisplayName": "teams recording"
+        "badgeName": "app",
+        "link": "https://ccfang2.shinyapps.io/HonestDiDSenAnlys/",
+        "badgeDisplayName": "app"
       }
     ]
   },
   {
-    "date": "30 Apr 2021",
-    "content": "My paper with Prof. <a href=\"https://ece.iisc.ac.in/~rajeshs/\" target=\"_blank\" rel=\"noopener noreferrer\">Rajesh Sundaresan</a>, titled <em>Learning to Detect an Odd Restless Markov Arm</em>, accepted for presentation in the 2021 IEEE International Symposium on Information Theory (ISIT)."
-  },
-  {
-    "date": "11 Apr 2021",
-    "content": "My paper with Prof. <a href=\"https://ece.iisc.ac.in/~rajeshs/\" target=\"_blank\" rel=\"noopener noreferrer\">Rajesh Sundaresan</a>, titled <em>Detecting an Odd Restless Arm with a Trembling Hand</em>, accepted for publication in the IEEE Transactions on Information Theory."
-  },
-  {
-    "date": "06 Feb 2021",
-    "content": "New <a href=\"#/blogs/raman-and-his-inner-clock/\" target=\"_blank\" rel=\"noopener noreferrer\">blog post</a> on Sir C. V. Raman’s sense of time."
-  },
-  {
-    "date": "20 Jun 2020",
-    "content": "My paper with Prof. <a href=\"https://ece.iisc.ac.in/~rajeshs/\" target=\"_blank\" rel=\"noopener noreferrer\">Rajesh Sundaresan</a>, titled <em>Learning to Detect an Odd Markov Arm</em>, published in the July issue of the IEEE Transactions on Information Theory.",
+    "date": "26 Sept 2023",
+    "content": "My paper entitled <em>Post-promotion redemption, exposure, and spillover effects of electronic coupons: An empirical analysis</em>, published in Production and Operations Management.",
     "badgesData": [
       {
         "badgeName": "paper",
-        "link": "../media/2020/06/TIT_learning_to_detect_an_odd_markov_arm.pdf",
+        "link": "../media/POM2022.pdf",
         "badgeDisplayName": "paper"
       },
       {
-        "badgeName": "xplore",
-        "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8990074",
-        "badgeDisplayName": "xplore"
-      }
-    ]
-  },
-  {
-    "date":"09 Jun 2020",
-    "content": "Video and slides of the virtual presentation for ISIT 2020 now up on the website.",
-    "badgesData": [
-      {
-        "badgeName": "slides",
-        "link": "../media/2020/06/ISIT2020_Karthik_Sundaresan.pdf",
-        "badgeDisplayName": "slides"
-      },
-      {
-        "badgeName": "video",
-        "link": "https://www.youtube.com/watch?v=ZTV5VtCLrdQ",
-        "badgeDisplayName": "video"
+        "badgeName": "weblink",
+        "link": "https://onlinelibrary.wiley.com/doi/10.1111/poms.13889",
+        "badgeDisplayName": "weblink"
       }
     ]
   }

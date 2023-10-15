@@ -1,5 +1,5 @@
 {
-  "name": "pnkarthik.github.io",
+  "name": "ccfang2.github.io",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -14,9 +14,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pnkarthik/pnkarthik.github.io/issues"
+    "url": "https://github.com/ccfang2/ccfang2.github.io/issues"
   },
-  "homepage": "https://pnkarthik.github.io",
+  "homepage": "https://ccfang2.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",

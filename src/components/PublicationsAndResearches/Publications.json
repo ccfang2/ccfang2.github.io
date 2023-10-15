@@ -1,0 +1,24 @@
+{
+  "journals": [
+    {
+      "id": "j1",
+      "title": "<em>Post-promotion redemption, exposure, and spillover effects of electronic coupons: An empirical analysis</em>",
+      "authors": "<a href=\"https://directory.tacoma.uw.edu/employee/xyzhang5\" rel=\"noopener noreferrer\" class=\"nameFontColor\">Xingyue (Luna) Zhang</a>, <a href=\"https://lerner.udel.edu/faculty-staff-directory/oliver-yao/\" target=\"_blank\" className=\"addressTag\" rel=\"noopener noreferrer\">Oliver Yao</a>, <a href=\"https://sem.tongji.edu.cn/semch/15143.html\" target=\"_blank\" className=\"addressTag\" rel=\"noopener noreferrer\">Jiantong Zhang</a> and <a href=\"/\" target=\"_blank\" className=\"addressTag\" rel=\"noopener noreferrer\"><strong>Chencheng Fang</strong></a>",
+      "status":"Production and Operations Management, volume 32, number 2, pp. 603-617, 2023",
+      "hasAbstract": true,
+      "abstract": "<p>Coupon promotions have been increasingly used with the development of electronic commerce technologies. The post-promotion effects of coupon promotions have been mixed. Using a randomly selected customer sample at a firm that operates a large online classified ads website, we examine the exposure, redemption, and spillover effects of coupon promotions. We find a negative exposure effect and a positive redemption effect. For customers who received coupons but did not redeem them (i.e., exposure effect), they purchased less than those who did not receive coupons after the promotion ends; and for the customers who redeemed coupons (i.e., redemption effect), they purchased more than those who did not redeem them after the promotion ends. We find that the positive redemption and negative exposure effects can spill over to other products that are not on promotion (i.e., spillover effect). Further investigations show that the negative exposure effect is exacerbated when customers purchase more often. Managerial and theoretical implications are discussed.</p>",
+      "badgesData": [
+        {
+          "badgeName": "weblink",
+          "link": "https://onlinelibrary.wiley.com/doi/10.1111/poms.13889",
+          "badgeDisplayName": "weblink"
+        },
+        {
+          "badgeName": "paper",
+          "link": "../media/POM2022.pdf",
+          "badgeDisplayName": "paper"
+        }
+      ]
+    }
+  ]
+}
