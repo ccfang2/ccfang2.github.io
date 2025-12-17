@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Academic Personal Webpage</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.17/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="">
+    <div class="container mx-auto px-12 py-8">
+      <div
+        class="bg-white flex flex-col space-y-12 rounded-lg p-8 md:px-24 px-8"
+      >
+        <div class="text-center -mb-6">
+          <img
+            class="w-32 h-32 mb-4 mx-auto rounded-full object-contain"
+            src="profile.png"
+            alt="Chencheng Fang"
+          />
+          <h1 class="text-3xl font-semibold mt-2">Chencheng Fang</h1>
+          <h2 class="text-xl font-medium text-gray-600">
+            Hausdorff Center for Mathematics <br />
+            Institute of Finance and Statistics, University of Bonn
+          </h2>
+        </div>
+        <div class="text-center mb-4">
+          <h3 class="text-2xl font-semibold mb-2">About Me</h3>
+          <p class="text-gray-600">
+            Welcome to my website, I am Chencheng Fang, a Ph.D. researcher at the <a href="https://www.mathematics.uni-bonn.de/hcm" target="_blank" rel="noopener noreferrer">Hausdorff Center for Mathematics</a> and <a href="https://www.econ.uni-bonn.de/ifs/en/" target="_blank" rel="noopener noreferrer">Institute of Finance and Statistics</a>, <a href="https://www.uni-bonn.de/" target="_blank" rel="noopener noreferrer">University of Bonn</a> in Germany. I am co-supervised by Prof. <a href="https://www.dliebl.com/" target="_blank" rel="noopener noreferrer">Dominik Liebl</a> from University of Bonn, and Prof. <a href="https://www.stat.colostate.edu/~piotr/" target="_blank" rel="noopener noreferrer">Piotr Kokoszka</a> from <a href="https://www.colostate.edu" target="_blank" rel="noopener noreferrer"></a>Colorado State University</a>. <br />
+            I am currently engaged in theoretical research at the intersection of causal inference and functional data analysis. In addition, I have a strong interest in econometric problems arising in applied management and economics research, particularly in developing and refining econometric and statistical methods to better accomodate the practical needs of empirical researchers. Last but not least, I am highly motivated to disseminate my work through the development of R packages and Shiny apps, thereby facilitating transparent and accessible implementation of my research.
+          </p>
+        </div>
+        <hr></hr>
+
+        <div class="mb-4">
+          <h3 class="text-2xl font-semibold mb-2">Research Interests</h3>
+          <ul class="list-disc pl-5 text-gray-600">
+            <li>Econometrics and Statistics</li>
+            <li>Functional Data Analysis</li>
+            <li>Management</li>
+          </ul>
+        </div>
+
+        <div class="mb-4">
+          <h3 class="text-2xl font-semibold mb-2">Education</h3>
+          <ul class="list-disc pl-5 text-gray-600">
+            <li>Ph.D., Economics, University of Bonn, 2026</li>
+          </ul>
+        </div>
+
+        <div class="mb-4">
+          <h3 class="text-2xl font-semibold mb-2">Publications and Working Papers</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="bg-gray-100 p-4 rounded-lg ">
+              <p class="font-medium">
+              Making Event Study Plots Honest: A Functional Data Approach to Causal Inference 
+              </p>
+              <p class="italic text-sm mb-2">
+                Fang, C., & Liebl, D. (2025)
+              </p>
+              <p class="text-gray-600">Working Paper</p>
+              <a href="https://arxiv.org/abs/2512.06804" class="text-blue-600 hover:underline">ARXIV</a>
+            </div>
+            <div class="bg-gray-100 p-4 rounded-lg ">
+              <p class="font-medium">
+              Dimension Adaptive Estimation
+              </p>
+              <p class="italic text-sm mb-2">
+                Fang,C. (2023)
+              </p>
+              <p class="text-gray-600">University of Bonn</p>
+              <a href="https://github.com/ccfang2/Masters_Thesis?tab=readme-ov-file" class="text-blue-600 hover:underline">LINK</a>
+            </div>
+            <div class="bg-gray-100 p-4 rounded-lg ">
+              <p class="font-medium">
+                Post-promotion redemption, exposure, and spillover effects of electronic coupons: An empirical analysis
+              </p>
+              <p class="italic text-sm mb-2">
+                Zhang, X., Yao, Y., Zhang, J., & Fang, C (2023)
+              </p>
+              <p class="text-gray-600">Production and Operations Management, 32(2), 603-617</p>
+              <a href="https://doi.org/10.1111/poms.13889" class="text-blue-600 hover:underline">DOI</a>
+            </div>
+           <!-- Add more publication cards here -->
+          </div>
+        </div>
+
+        <div class="mb-4">
+          <h3 class="text-2xl font-semibold mb-2">Softwares</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="bg-gray-100 p-4 rounded-lg ">
+              <p class="font-medium">
+              fdid
+              </p>
+              <p class="italic text-sm mb-2">
+                Honest Causal Inference Using Event Study Plots
+              </p>
+              <p class="text-gray-600">R Package</p>
+              <a href="https://github.com/ccfang2/fdid" class="text-blue-600 hover:underline">GitHuB</a>
+            </div>
+            <div class="bg-gray-100 p-4 rounded-lg ">
+              <p class="font-medium">
+              fdidHonestInference
+              </p>
+              <p class="italic text-sm mb-2">
+                Honest Causal Inference Using Event Study Plots
+              </p>
+              <p class="text-gray-600">Shiny app</p>
+              <a href="https://github.com/ccfang2/fdidHonestInference" class="text-blue-600 hover:underline">GitHuB</a>
+            </div>
+            <div class="bg-gray-100 p-4 rounded-lg ">
+              <p class="font-medium">
+                nndiagram
+              </p>
+              <p class="italic text-sm mb-2">
+                Generating LaTeX code for drawing neural network diagrams with TikZ
+              </p>
+              <p class="text-gray-600">R Package</p>
+              <a href="https://cran.r-project.org/web/packages/nndiagram/index.html" class="text-blue-600 hover:underline">CRAN</a>
+            </div>
+            <div class="bg-gray-100 p-4 rounded-lg ">
+              <p class="font-medium">
+                dimada
+              </p>
+              <p class="italic text-sm mb-2">
+                Implementing dimension adaptive estimation
+              </p>
+              <p class="text-gray-600">R Package</p>
+              <a href="https://github.com/ccfang2/dimada" class="text-blue-600 hover:underline">GitHub</a>
+            </div>
+            <div class="bg-gray-100 p-4 rounded-lg ">
+              <p class="font-medium">
+                HonestDiDSenAnlys
+              </p>
+              <p class="italic text-sm mb-2">
+                Running sensitivity analysis in <a href="https://academic.oup.com/restud/article-abstract/90/5/2555/7039335" target="_blank" rel="noopener noreferrer">Rambachan and Roth (2023)</a> on web browsers.
+              </p>
+              <p class="text-gray-600">Shiny app</p>
+              <a href="https://github.com/ccfang2/HonestDiDSenAnlys" class="text-blue-600 hover:underline">GitHub</a>
+            </div>
+
+           <!-- Add more publication cards here -->
+          </div>
+        </div>
+
+        <div class="mb-4">
+          <h3 class="text-2xl font-semibold mb-2">Work in Progress</h3>
+          <ul class="list-disc pl-5 text-gray-600">
+            <li>Debunking a Common Misconception about Count Data Models in Empirical OM Research: A Review and Practical Guide (with Jia Gao)</li>
+            <li>Pain-Free Bandwidth Selection for (Non-)Sparse Functional Data (with Dominik Liebl, Omar Kassi)</li>
+            <li>Post-Registration Inference (with Dominik Liebl)</li>
+            <li>Synthetic Difference-in-Differences with Missing Post-Treatment Outcomes (with Joonho Phil Hwang)</li>
+            <li>Constructing Any-time Valid Confidence Band for Rolling Regression Estimator: Application to Bollinger Band (Job Market Paper)</li>
+          </ul>
+        </div>
+
+        <div class="mb-4">
+          <h3 class="text-2xl font-semibold mb-2">Contact</h3>
+          <p class="text-gray-600">
+            Email:
+            <a
+              class="text-blue-600 hover:underline"
+              href="mailto:ccfang@uni-bonn.de"
+              >you@youruniversity.edu</a
+            ><br />
+            Phone: +49 152 59326793
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="flex justify-center mb-4 text-gray-400 text-sm">The webpage template is taken from
+      <a class="text-blue-600 ml-1" href="https://github.com/onpix/minimal-academic-website"> onpix</a>
+    </div>
+  </body>
+</html>
